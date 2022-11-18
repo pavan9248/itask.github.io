@@ -1,0 +1,206 @@
+.main
+{ 
+   background-size:cover;
+   background-repeat:none;
+   background-image: url('https://wallpapercave.com/wp/wp3416319.jpg');
+   height:100vh;
+   min-width:100vw;
+}
+
+#header
+{
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.container
+{
+    padding: 10px 10%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+.buts
+{
+    margin-top: 45px;
+}
+.logo
+{
+    width: 110px;
+    height: 95px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    width: 84px;
+    margin: 50px;
+    margin-top: 25px;
+}
+nav ul li a{
+    color: #fff;
+    color: black;
+    font-size: 155px;
+    background-color:lightgrey;
+    font-size:18px;
+    position: relative;
+}
+#log
+{
+    display: block;
+   color: aliceblue;
+    font-size: 30px;
+    margin-top: -20px;
+}
+#log1
+{
+    display: block;
+   color: aliceblue;
+    font-size: 30px;
+    margin-right:120px;
+    margin-top: -20px;
+}
+.row
+{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1
+{
+    flex-basis: 35%;
+}
+.about-col-2
+{
+    margin-top: -65px;
+    margin-right: -45px;
+    flex-basis: 50%;
+    width: 100vw;
+}
+img{
+    margin-top: -65px;
+    margin-right:45px;
+    height: 500px;
+    width: 143px;
+    
+}
+h1{
+    font-size: 97px;
+}
+.head3{
+    position: absolute;
+    margin-top:-135px;
+    font-family: Georgia, serif;
+    color:antiquewhite;
+    font-size: 19px;
+    margin-left:-85px;
+}
+.head4{
+    margin-top:-85px;
+    position: absolute;
+    font-size: 19px;
+    font-family: Georgia, serif;
+    color:antiquewhite;
+    margin-left:-85px;
+}
+
+.head1
+{
+    margin-top:-125px;
+    margin-left:-85px;
+    color:rgb(220, 20, 120);
+}
+.head2
+{
+    margin-top:-85px;
+    margin-left:150px;
+    color:rgb(154, 93, 105);
+}
+
+.buttons
+{
+    margin-top: -14px;
+margin-left: -35px;
+   display: flex;
+}
+.but{ 
+    background: linear-gradient(170deg, #fd3bb6 50%, #e206a7 50%);width: 270px;
+   height:65px;
+   margin: 15px;
+   margin-top: -25px;
+   border-radius: 25px;
+   font-family: Georgia, serif;
+   font-size: 23px;
+}
+.line {      
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+}
+.list{
+    font-weight: bold;
+    color: rgba(210, 205, 212, 0.862);
+    list-style: none;
+}
+.list1{
+    font-weight: bold;
+    color: rgba(234, 233, 231, 0.416);
+    list-style: none;
+}
+.list2{
+    color: rgba(103, 101, 101, 0.416);
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.heads
+{
+    width: 76px;
+    padding: 19px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+}
+button:hover
+{
+   background: linear-gradient(170deg, #c32e8c 50%, #770458 50%);width: 270px;
+   cursor: pointer;
+}
+.grp
+{
+    display: flex;
+}
+#p{
+    color: grey;
+    margin-right: 15px;
+}
+.footer
+{
+   display: flex;
+   margin-left: -125px;
+   align-items: flex-start;
+}
+i{
+    font-size: 35px;
+    color: #fff;
+}
+.icon
+{  
+   width: 250px; 
+   display: flex;
+   align-items: flex-end;
+   justify-content :space-between ;
+   margin-top: -15px;
+}
+.l{
+    color: rgba(210, 205, 212, 0.862); ;
+}
